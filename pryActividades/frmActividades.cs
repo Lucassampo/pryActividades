@@ -53,5 +53,10 @@ namespace pryActividades
         {
             this.Close();
         }
+
+        private void txtDetalle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
