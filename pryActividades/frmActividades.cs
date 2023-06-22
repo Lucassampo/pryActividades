@@ -24,6 +24,9 @@ namespace pryActividades
 
         private void btnGrabar_Click(object sender, EventArgs e)
         {
+            frmMostrar Mostrar = new frmMostrar();
+            Mostrar.ShowDialog();
+            
             if (dtpFecha.Value >= DateTime.Today)
             {
                 if(cboTipoActividad.SelectedIndex != -1) 

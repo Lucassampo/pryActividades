@@ -25,7 +25,7 @@ namespace pryActividades
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "Lucon" && txtContraseña.Text == "Jesucristopasion") 
+            if (txtUsuario.Text == "Lucon" && txtContraseña.Text == "123") 
             {
                 this.Hide();
                 frmActividades frmActividades = new frmActividades();
