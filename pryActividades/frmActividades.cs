@@ -35,7 +35,7 @@ namespace pryActividades
                 {
                     if(txtDetalle.Text != "")
                     {    
-                        if(optSi.Checked = true)
+                        if(optSi.Checked == true)
                         {
                             varReunion = "Si";
                         }

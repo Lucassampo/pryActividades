@@ -45,7 +45,11 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtDetalle = new System.Windows.Forms.TextBox();
             this.dtvRegistro = new System.Windows.Forms.DataGridView();
+            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Reunion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mrcReunion.SuspendLayout();
             this.mrcTareas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtvRegistro)).BeginInit();
@@ -219,22 +223,46 @@
             // 
             this.dtvRegistro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtvRegistro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1});
-            this.dtvRegistro.Location = new System.Drawing.Point(12, 254);
+            this.Fecha,
+            this.Tipo,
+            this.Column2,
+            this.Column1,
+            this.Reunion});
+            this.dtvRegistro.Location = new System.Drawing.Point(12, 258);
             this.dtvRegistro.Name = "dtvRegistro";
-            this.dtvRegistro.Size = new System.Drawing.Size(468, 163);
+            this.dtvRegistro.Size = new System.Drawing.Size(543, 163);
             this.dtvRegistro.TabIndex = 11;
+            // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            // 
+            // Tipo
+            // 
+            this.Tipo.HeaderText = "Tipo";
+            this.Tipo.Name = "Tipo";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Detalle";
+            this.Column2.Name = "Column2";
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Column1";
+            this.Column1.HeaderText = "Tareas";
             this.Column1.Name = "Column1";
+            // 
+            // Reunion
+            // 
+            this.Reunion.HeaderText = "Reunion";
+            this.Reunion.Name = "Reunion";
             // 
             // frmActividades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 450);
+            this.ClientSize = new System.Drawing.Size(595, 450);
             this.Controls.Add(this.dtvRegistro);
             this.Controls.Add(this.txtDetalle);
             this.Controls.Add(this.btnCancelar);
@@ -277,6 +305,10 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtDetalle;
         private System.Windows.Forms.DataGridView dtvRegistro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Reunion;
     }
 }
