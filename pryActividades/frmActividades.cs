@@ -12,6 +12,7 @@ namespace pryActividades
 {
     public partial class frmActividades : Form
     {
+        int n = 0;
         public frmActividades()
         {
             InitializeComponent();
@@ -24,16 +25,59 @@ namespace pryActividades
 
         private void btnGrabar_Click(object sender, EventArgs e)
         {
-            frmMostrar Mostrar = new frmMostrar();
-            Mostrar.ShowDialog();
-            
+            string varTareas = "";
+            string varReunion = "";
+       
             if (dtpFecha.Value >= DateTime.Today)
             {
-                if(cboTipoActividad.SelectedIndex != -1) 
+                
+                if (cboTipoActividad.SelectedIndex != -1) 
                 {
                     if(txtDetalle.Text != "")
-                    {
+                    {    
+                        if(optSi.Checked = true)
+                        {
+                            varReunion = "Si";
+                        }
+                        else
+                        {
+                            varReunion = "No";
+                        }
+                        if(chkDebate.Checked)
+                        {
+                            varTareas = "Debate, ";
+
+                        }
+                        if(chkInvestigacion.Checked)
+                        {
+                            varTareas = "Investigacion; ";
+                                                     
+                        }
+                        if (chkNotasReunion.Checked)
+                        {
+                            varTareas = "Notas Reunion, ";
+                        }
+                        if (chkRepositorio.Checked)
+                        {
+                            varTareas = "Repositorio, ";
+                        }
+                        
+                        
                         MessageBox.Show("Vamos a grabar...");
+                        int n = dtvRegistro.Rows.Add();
+
+                        dtvRegistro.Rows[n].Cells[0].Value = dtpFecha.Text;
+                        dtvRegistro.Rows[n].Cells[1].Value = cboTipoActividad.Text;
+                        dtvRegistro.Rows[n].Cells[2].Value = txtDetalle.Text;
+                        dtvRegistro.Rows[n].Cells[3].Value = varTareas;
+                        dtvRegistro.Rows[n].Cells[4].Value = varReunion;
+
+                        //dtvRegistro.Rows.Add(dtpFecha.Value, cboTipoActividad, txtDetalle, varTareas, varReunion)
+
+
+
+
+
                     }
                     else
                     {
