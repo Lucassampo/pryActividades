@@ -57,35 +57,39 @@
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(12, 35);
+            this.dtpFecha.Location = new System.Drawing.Point(16, 43);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(210, 20);
+            this.dtpFecha.Size = new System.Drawing.Size(279, 22);
             this.dtpFecha.TabIndex = 0;
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(12, 19);
+            this.lblFecha.Location = new System.Drawing.Point(16, 23);
+            this.lblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(37, 13);
+            this.lblFecha.Size = new System.Drawing.Size(45, 16);
             this.lblFecha.TabIndex = 1;
             this.lblFecha.Text = "Fecha";
             // 
             // lblTipo
             // 
             this.lblTipo.AutoSize = true;
-            this.lblTipo.Location = new System.Drawing.Point(9, 74);
+            this.lblTipo.Location = new System.Drawing.Point(12, 91);
+            this.lblTipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(28, 13);
+            this.lblTipo.Size = new System.Drawing.Size(35, 16);
             this.lblTipo.TabIndex = 2;
             this.lblTipo.Text = "Tipo";
             // 
             // lblDetalle
             // 
             this.lblDetalle.AutoSize = true;
-            this.lblDetalle.Location = new System.Drawing.Point(9, 127);
+            this.lblDetalle.Location = new System.Drawing.Point(12, 156);
+            this.lblDetalle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDetalle.Name = "lblDetalle";
-            this.lblDetalle.Size = new System.Drawing.Size(40, 13);
+            this.lblDetalle.Size = new System.Drawing.Size(50, 16);
             this.lblDetalle.TabIndex = 3;
             this.lblDetalle.Text = "Detalle";
             // 
@@ -99,18 +103,21 @@
             "Analisis",
             "Diagrama base de datos",
             "Programacion"});
-            this.cboTipoActividad.Location = new System.Drawing.Point(12, 90);
+            this.cboTipoActividad.Location = new System.Drawing.Point(16, 111);
+            this.cboTipoActividad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboTipoActividad.Name = "cboTipoActividad";
-            this.cboTipoActividad.Size = new System.Drawing.Size(210, 21);
+            this.cboTipoActividad.Size = new System.Drawing.Size(279, 24);
             this.cboTipoActividad.TabIndex = 4;
             // 
             // mrcReunion
             // 
             this.mrcReunion.Controls.Add(this.optNo);
             this.mrcReunion.Controls.Add(this.optSi);
-            this.mrcReunion.Location = new System.Drawing.Point(270, 35);
+            this.mrcReunion.Location = new System.Drawing.Point(360, 43);
+            this.mrcReunion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mrcReunion.Name = "mrcReunion";
-            this.mrcReunion.Size = new System.Drawing.Size(210, 50);
+            this.mrcReunion.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mrcReunion.Size = new System.Drawing.Size(280, 62);
             this.mrcReunion.TabIndex = 6;
             this.mrcReunion.TabStop = false;
             this.mrcReunion.Text = "Reunion";
@@ -118,9 +125,10 @@
             // optNo
             // 
             this.optNo.AutoSize = true;
-            this.optNo.Location = new System.Drawing.Point(111, 19);
+            this.optNo.Location = new System.Drawing.Point(148, 23);
+            this.optNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optNo.Name = "optNo";
-            this.optNo.Size = new System.Drawing.Size(41, 17);
+            this.optNo.Size = new System.Drawing.Size(48, 20);
             this.optNo.TabIndex = 1;
             this.optNo.TabStop = true;
             this.optNo.Text = "NO";
@@ -129,9 +137,10 @@
             // optSi
             // 
             this.optSi.AutoSize = true;
-            this.optSi.Location = new System.Drawing.Point(32, 19);
+            this.optSi.Location = new System.Drawing.Point(43, 23);
+            this.optSi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optSi.Name = "optSi";
-            this.optSi.Size = new System.Drawing.Size(35, 17);
+            this.optSi.Size = new System.Drawing.Size(40, 20);
             this.optSi.TabIndex = 0;
             this.optSi.TabStop = true;
             this.optSi.Text = "SI";
@@ -143,9 +152,11 @@
             this.mrcTareas.Controls.Add(this.chkDebate);
             this.mrcTareas.Controls.Add(this.chkInvestigacion);
             this.mrcTareas.Controls.Add(this.chkRepositorio);
-            this.mrcTareas.Location = new System.Drawing.Point(270, 101);
+            this.mrcTareas.Location = new System.Drawing.Point(360, 124);
+            this.mrcTareas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mrcTareas.Name = "mrcTareas";
-            this.mrcTareas.Size = new System.Drawing.Size(210, 71);
+            this.mrcTareas.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mrcTareas.Size = new System.Drawing.Size(280, 87);
             this.mrcTareas.TabIndex = 7;
             this.mrcTareas.TabStop = false;
             this.mrcTareas.Text = "Tareas";
@@ -153,9 +164,10 @@
             // chkNotasReunion
             // 
             this.chkNotasReunion.AutoSize = true;
-            this.chkNotasReunion.Location = new System.Drawing.Point(108, 48);
+            this.chkNotasReunion.Location = new System.Drawing.Point(144, 59);
+            this.chkNotasReunion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkNotasReunion.Name = "chkNotasReunion";
-            this.chkNotasReunion.Size = new System.Drawing.Size(97, 17);
+            this.chkNotasReunion.Size = new System.Drawing.Size(118, 20);
             this.chkNotasReunion.TabIndex = 2;
             this.chkNotasReunion.Text = "Notas Reunion";
             this.chkNotasReunion.UseVisualStyleBackColor = true;
@@ -163,9 +175,10 @@
             // chkDebate
             // 
             this.chkDebate.AutoSize = true;
-            this.chkDebate.Location = new System.Drawing.Point(108, 19);
+            this.chkDebate.Location = new System.Drawing.Point(144, 23);
+            this.chkDebate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkDebate.Name = "chkDebate";
-            this.chkDebate.Size = new System.Drawing.Size(61, 17);
+            this.chkDebate.Size = new System.Drawing.Size(74, 20);
             this.chkDebate.TabIndex = 1;
             this.chkDebate.Text = "Debate";
             this.chkDebate.UseVisualStyleBackColor = true;
@@ -173,9 +186,10 @@
             // chkInvestigacion
             // 
             this.chkInvestigacion.AutoSize = true;
-            this.chkInvestigacion.Location = new System.Drawing.Point(6, 48);
+            this.chkInvestigacion.Location = new System.Drawing.Point(8, 59);
+            this.chkInvestigacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkInvestigacion.Name = "chkInvestigacion";
-            this.chkInvestigacion.Size = new System.Drawing.Size(89, 17);
+            this.chkInvestigacion.Size = new System.Drawing.Size(108, 20);
             this.chkInvestigacion.TabIndex = 3;
             this.chkInvestigacion.Text = "Investigacion";
             this.chkInvestigacion.UseVisualStyleBackColor = true;
@@ -183,9 +197,10 @@
             // chkRepositorio
             // 
             this.chkRepositorio.AutoSize = true;
-            this.chkRepositorio.Location = new System.Drawing.Point(6, 19);
+            this.chkRepositorio.Location = new System.Drawing.Point(8, 23);
+            this.chkRepositorio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkRepositorio.Name = "chkRepositorio";
-            this.chkRepositorio.Size = new System.Drawing.Size(79, 17);
+            this.chkRepositorio.Size = new System.Drawing.Size(99, 20);
             this.chkRepositorio.TabIndex = 0;
             this.chkRepositorio.Text = "Repositorio";
             this.chkRepositorio.UseVisualStyleBackColor = true;
@@ -193,9 +208,10 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(270, 199);
+            this.btnGrabar.Location = new System.Drawing.Point(360, 245);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(75, 23);
+            this.btnGrabar.Size = new System.Drawing.Size(100, 28);
             this.btnGrabar.TabIndex = 8;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = true;
@@ -203,9 +219,10 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(405, 199);
+            this.btnCancelar.Location = new System.Drawing.Point(540, 245);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.Size = new System.Drawing.Size(100, 28);
             this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -213,10 +230,11 @@
             // 
             // txtDetalle
             // 
-            this.txtDetalle.Location = new System.Drawing.Point(12, 144);
+            this.txtDetalle.Location = new System.Drawing.Point(16, 177);
+            this.txtDetalle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDetalle.Multiline = true;
             this.txtDetalle.Name = "txtDetalle";
-            this.txtDetalle.Size = new System.Drawing.Size(205, 68);
+            this.txtDetalle.Size = new System.Drawing.Size(272, 83);
             this.txtDetalle.TabIndex = 10;
             // 
             // dtvRegistro
@@ -228,41 +246,53 @@
             this.Column2,
             this.Column1,
             this.Reunion});
-            this.dtvRegistro.Location = new System.Drawing.Point(12, 258);
+            this.dtvRegistro.Location = new System.Drawing.Point(16, 318);
+            this.dtvRegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtvRegistro.Name = "dtvRegistro";
-            this.dtvRegistro.Size = new System.Drawing.Size(543, 163);
+            this.dtvRegistro.RowHeadersWidth = 51;
+            this.dtvRegistro.Size = new System.Drawing.Size(764, 201);
             this.dtvRegistro.TabIndex = 11;
             // 
             // Fecha
             // 
             this.Fecha.HeaderText = "Fecha";
+            this.Fecha.MinimumWidth = 6;
             this.Fecha.Name = "Fecha";
+            this.Fecha.Width = 125;
             // 
             // Tipo
             // 
             this.Tipo.HeaderText = "Tipo";
+            this.Tipo.MinimumWidth = 6;
             this.Tipo.Name = "Tipo";
+            this.Tipo.Width = 125;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Detalle";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Tareas";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // Reunion
             // 
             this.Reunion.HeaderText = "Reunion";
+            this.Reunion.MinimumWidth = 6;
             this.Reunion.Name = "Reunion";
+            this.Reunion.Width = 125;
             // 
             // frmActividades
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(595, 450);
+            this.ClientSize = new System.Drawing.Size(793, 554);
             this.Controls.Add(this.dtvRegistro);
             this.Controls.Add(this.txtDetalle);
             this.Controls.Add(this.btnCancelar);
@@ -274,6 +304,7 @@
             this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.dtpFecha);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmActividades";
             this.Text = "frmActividades";
             this.mrcReunion.ResumeLayout(false);

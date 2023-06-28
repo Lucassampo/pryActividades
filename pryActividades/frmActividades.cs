@@ -69,7 +69,7 @@ namespace pryActividades
                         dtvRegistro.Rows[n].Cells[0].Value = dtpFecha.Text;
                         dtvRegistro.Rows[n].Cells[1].Value = cboTipoActividad.Text;
                         dtvRegistro.Rows[n].Cells[2].Value = txtDetalle.Text;
-                        dtvRegistro.Rows[n].Cells[3].Value = varTareas;
+                        dtvRegistro.Rows[n].Cells[3].Value = varTareas; 
                         dtvRegistro.Rows[n].Cells[4].Value = varReunion;
 
                         //dtvRegistro.Rows.Add(dtpFecha.Value, cboTipoActividad, txtDetalle, varTareas, varReunion)

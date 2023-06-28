@@ -29,7 +29,7 @@ namespace pryActividades
 
         private void MostrarTipo()
         {
-            lbMuestra.Items.Clear();
+            
             
         
         }  
